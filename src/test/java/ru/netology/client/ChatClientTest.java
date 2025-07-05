@@ -17,7 +17,7 @@ class ChatClientTest {
     @Test
     void testLoadSettings() throws IOException {
         //given
-        String filePath = "./src/main/java/ru/netology/server/Settings.txt";
+        String filePath = "./src/main/resources/Settings.txt";
 
         //when
         BufferedReader mockedReader = mock(BufferedReader.class);

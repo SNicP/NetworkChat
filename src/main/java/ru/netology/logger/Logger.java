@@ -9,7 +9,7 @@ import java.time.format.DateTimeFormatter;
 
 public class Logger {
     private static Logger instance = null; // начальное значение Logger для реализации паттерна Singleton
-    private static String log_path = new File("./src/main/java/ru/netology/logger/file.log")
+    private static String log_path = new File("./src/main/resources/file.log")
             .getAbsolutePath(); // путь к файлу логирования
     private static final DateTimeFormatter TIME_FORMATTER =
             DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"); // формат даты и времени

@@ -10,7 +10,7 @@ import java.util.concurrent.Executors;
 
 public class ChatClient {
     private static final String SETTING_PATH =
-            "./src/main/java/ru/netology/server/Settings.txt"; // путь к файлу с настройками для чата
+            "./src/main/resources/Settings.txt"; // путь к файлу с настройками для чата
     private static final Logger LOGGER = Logger.getInstance(); // создание экземпляра Logger
 
     private final static String DEFAULT_HOST = "localhost"; // значение хоста по умолчанию
